@@ -1,0 +1,33 @@
+
+
+
+<ion-content class="bg-image">
+
+  <h2>Jchat</h2><br>
+
+
+
+  <ion-list no-line>
+
+      <ion-item>
+
+      <!--  <ion-input type=”pseudo” placeholder=Pseudo name=”pseudo” #pseudo></ion-input> -->
+         <ion-input type="text" placeholder=Pseudo [value]="pseudo" [(ngModel)]="pseudo"></ion-input>
+
+      </ion-item>
+
+        <ion-item>
+
+        <ion-input type=”password” placeholder=Password name=”password” #mail></ion-input>
+
+      </ion-item>
+
+    </ion-list>
+
+
+
+<button ion-button full (click) = "connexion()">Connexion</button><br>
+
+<button ion-button full (click) = "inscription()">Inscription</button>
+
+</ion-content>

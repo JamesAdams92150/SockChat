@@ -1,0 +1,7 @@
+{
+  "name": "SockChat",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

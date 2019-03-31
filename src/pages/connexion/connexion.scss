@@ -1,0 +1,39 @@
+page-connexion {
+
+.bg-image { //Image en background
+  background-image: url('../../assets/imgs/test2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+ion-title { //text au centre
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 90px 1px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.scroll-content { //Désactiver la barre de défilement
+  overflow-y: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+}
